@@ -1,3 +1,14 @@
+.draw-container{
+    background-color: rgb(184, 184, 184);
+    max-width: 100%;
+    max-width: 100%;
+}
+.canvas {
+   background-color: white;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 .canvas-buttons {
     display: flex;
     justify-content: space-evenly;
@@ -43,7 +54,7 @@
     background-color:rgba(0, 119, 255, 0.68);
 }
 
-.home-button {
+.save-button {
     height: 2rem;
     width: 5rem;
     font-weight: 700;
@@ -54,6 +65,21 @@
     color: white;
 }
 
-.home-button:hover {
+.save-button:hover {
+    background-color: rgba(0, 119, 255, 0.68);
+}
+
+.restore-button {
+    height: 2rem;
+    width: 5rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 90px;
+    background-color: rgb(0, 157, 255);
+    border: none;
+    color: white;
+}
+
+.restore-button:hover {
     background-color: rgba(0, 119, 255, 0.68);
 }
